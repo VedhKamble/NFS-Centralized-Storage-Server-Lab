@@ -1,0 +1,13 @@
+#/accounts 192.168.0.105(sync) *(rw,sync,no_root_squash)
+
+/jokes *(rw,sync,no_root_squash)
+
+/Public 192.168.0.106 *(rw,sync,root_squash)
+
+/Devs 192.168.0.106 *(rw,sync,root_squash)
+
+/Backup 192.168.0.106 *(ro,sync,no_root_squash)
+
+
+
+

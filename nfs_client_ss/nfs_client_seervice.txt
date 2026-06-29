@@ -1,0 +1,14 @@
+● autofs.service - Automounts filesystems on demand
+     Loaded: loaded (/usr/lib/systemd/system/autofs.service; enabled; preset: disabled)
+     Active: active (running) since Mon 2026-06-29 18:52:22 IST; 5min ago
+ Invocation: 917927f6276d47fe908a0bdb6f0a7290
+   Main PID: 1583 (automount)
+      Tasks: 7 (limit: 95577)
+     Memory: 2.6M (peak: 3.8M)
+        CPU: 30ms
+     CGroup: /system.slice/autofs.service
+             └─1583 /usr/sbin/automount --systemd-service --dont-check-daemon
+
+Jun 29 18:52:22 roger.com systemd[1]: Starting autofs.service - Automounts filesystems on demand...
+Jun 29 18:52:22 roger.com (utomount)[1583]: autofs.service: Referenced but unset environment variable evaluates to an empty string: OPTIONS
+Jun 29 18:52:22 roger.com systemd[1]: Started autofs.service - Automounts filesystems on demand.

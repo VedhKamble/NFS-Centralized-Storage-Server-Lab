@@ -1,0 +1,55 @@
+Script started on 2026-06-29 19:18:02+05:30 [TERM="linux" TTY="/dev/tty4" COLUMNS="240" LINES="67"]
+[?2004hvedh@roger:~$ cd /nfs/devs
+[?2004l[?2004hvedh@roger:/nfs/devs$ ll
+[?2004ltotal 0
+-rw-r--r-- 1 nik  nik  0 Jun 29 00:53 nik_client_2
+-rw-r--r-- 1 vedh vedh 0 Jun 29 00:52 vedh_client_1
+[?2004hvedh@roger:/nfs/devs$ touch vedh_client_2
+[?2004l[?2004hvedh@roger:/nfs/devs$ ll
+[?2004ltotal 0
+-rw-r--r-- 1 nik  nik  0 Jun 29 00:53 nik_client_2
+-rw-r--r-- 1 vedh vedh 0 Jun 29 00:52 vedh_client_1
+-rw-r--r-- 1 vedh vedh 0 Jun 29  2026 vedh_client_2
+[?2004hvedh@roger:/nfs/devs$ rm -f vedh_client_1
+[?2004l[?2004hvedh@roger:/nfs/devs$ ll
+[?2004ltotal 0
+-rw-r--r-- 1 nik  nik  0 Jun 29 00:53 nik_client_2
+-rw-r--r-- 1 vedh vedh 0 Jun 29  2026 vedh_client_2
+[?2004hvedh@roger:/nfs/devs$ cd ..
+[?2004l[?2004hvedh@roger:/nfs$ cd back baackckup 
+[?2004l[?2004hvedh@roger:/nfs/backup$ ll
+[?2004ltotal 0
+-rw-r--r-- 1 root root 0 Jun 29 00:39 bkc_nfs_server_1
+[?2004hvedh@roger:/nfs/backup$ touch cli1
+[?2004ltouch: cannot touch 'cli1': Read-only file system
+[?2004hvedh@roger:/nfs/backup$ cd ..
+[?2004l[?2004hvedh@roger:/nfs$ cd pu           blic
+[?2004l[?2004hvedh@roger:/nfs/public$ ll
+[?2004ltotal 0
+-rw-r--r-- 1 emp1 emp1 0 Jun 29 01:13 emp1_client3
+-rw-r--r-- 1 emp2 emp2 0 Jun 29 01:14 emp2_client_4
+-rw-r--r-- 1 nik  nik  0 Jun 29 01:13 nik_client2
+-rw-r--r-- 1 root root 0 Jun 29 01:08 server_file1
+-rw-r--r-- 1 vedh vedh 0 Jun 29 01:12 vedh_client1
+[?2004hvedh@roger:/nfs/public$ touch vedh_client2
+[?2004l[?2004hvedh@roger:/nfs/public$ ll
+[?2004ltotal 0
+-rw-r--r-- 1 emp1 emp1 0 Jun 29 01:13 emp1_client3
+-rw-r--r-- 1 emp2 emp2 0 Jun 29 01:14 emp2_client_4
+-rw-r--r-- 1 nik  nik  0 Jun 29 01:13 nik_client2
+-rw-r--r-- 1 root root 0 Jun 29 01:08 server_file1
+-rw-r--r-- 1 vedh vedh 0 Jun 29 01:12 vedh_client1
+-rw-r--r-- 1 vedh vedh 0 Jun 29  2026 vedh_client2
+[?2004hvedh@roger:/nfs/public$ rm 0f -fr   ved h_client1emp1_client3  
+[?2004l[?2004hvedh@roger:/nfs/public$ ll
+[?2004ltotal 0
+-rw-r--r-- 1 emp2 emp2 0 Jun 29 01:14 emp2_client_4
+-rw-r--r-- 1 nik  nik  0 Jun 29 01:13 nik_client2
+-rw-r--r-- 1 root root 0 Jun 29 01:08 server_file1
+-rw-r--r-- 1 vedh vedh 0 Jun 29 01:12 vedh_client1
+-rw-r--r-- 1 vedh vedh 0 Jun 29 19:20 vedh_client2
+[?2004hvedh@roger:/nfs/public$ cd
+[?2004l[?2004hvedh@roger:~$ exit
+[?2004lexit
+
+Script done on 2026-06-29 19:20:25+05:30 [COMMAND_EXIT_CODE="0"]

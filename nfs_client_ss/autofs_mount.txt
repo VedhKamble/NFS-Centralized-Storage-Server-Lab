@@ -1,0 +1,2 @@
+sunrpc on /var/lib/nfs/rpc_pipefs type rpc_pipefs (rw,relatime)
+/etc/auto.misc on /nfs type autofs (rw,relatime,fd=9,pgrp=1583,timeout=60,minproto=5,maxproto=5,indirect,pipe_ino=8066)

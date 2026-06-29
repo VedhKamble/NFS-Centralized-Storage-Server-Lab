@@ -1,0 +1,36 @@
+Script started on 2026-06-29 19:21:53+05:30 [TERM="linux" TTY="/dev/tty6" COLUMNS="240" LINES="67"]
+[?2004hemp1@roger:~$ whoami
+[?2004lemp1
+[?2004hemp1@roger:~$ cd /nfs/public
+[?2004l[?2004hemp1@roger:/nfs/public$ ll
+[?2004ltotal 0
+-rw-r--r-- 1 emp2 emp2 0 Jun 29 01:14 emp2_client_4
+-rw-r--r-- 1 nik  nik  0 Jun 29 01:13 nik_client2
+-rw-r--r-- 1 root root 0 Jun 29 01:08 server_file1
+-rw-r--r-- 1 vedh vedh 0 Jun 29 01:12 vedh_client1
+-rw-r--r-- 1 vedh vedh 0 Jun 29 19:20 vedh_client2
+[?2004hemp1@roger:/nfs/public$ touch emp1_clin=et==ent
+[?2004l[?2004hemp1@roger:/nfs/public$ ll
+[?2004ltotal 0
+-rw-r--r-- 1 emp1 emp1 0 Jun 29  2026 emp1_client
+-rw-r--r-- 1 emp2 emp2 0 Jun 29 01:14 emp2_client_4
+-rw-r--r-- 1 nik  nik  0 Jun 29 01:13 nik_client2
+-rw-r--r-- 1 root root 0 Jun 29 01:08 server_file1
+-rw-r--r-- 1 vedh vedh 0 Jun 29 01:12 vedh_client1
+-rw-r--r-- 1 vedh vedh 0 Jun 29 19:20 vedh_client2
+[?2004hemp1@roger:/nfs/public$ rm -f nik_client2 
+[?2004l[?2004hemp1@roger:/nfs/public$ ll
+[?2004ltotal 0
+-rw-r--r-- 1 emp1 emp1 0 Jun 29  2026 emp1_client
+-rw-r--r-- 1 emp2 emp2 0 Jun 29 01:14 emp2_client_4
+-rw-r--r-- 1 root root 0 Jun 29 01:08 server_file1
+-rw-r--r-- 1 vedh vedh 0 Jun 29 01:12 vedh_client1
+-rw-r--r-- 1 vedh vedh 0 Jun 29 19:20 vedh_client2
+[?2004hemp1@roger:/nfs/public$ cd ..
+[?2004l[?2004hemp1@roger:/nfs$ cd devs
+[?2004lbash: cd: devs: Permission denied
+[?2004hemp1@roger:/nfs$ cd 
+[?2004l[?2004hemp1@roger:~$ exit
+[?2004lexit
+
+Script done on 2026-06-29 19:22:45+05:30 [COMMAND_EXIT_CODE="0"]
