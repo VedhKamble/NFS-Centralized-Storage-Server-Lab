@@ -67,15 +67,11 @@ The setup includes multiple shared directories with different access controls, a
 
 AutoFS was configured on the client machine to automate NFS mounting operations.
 Features:-
-a) Dynamic mounting on access
-b) Automatic unmounting after inactivity
-c) Reduced manual mount management
+1) Dynamic mounting on access
+2) Automatic unmounting after inactivity
+3) Reduced manual mount management
 
-## Configuration Files
-/etc/auto.master
-/etc/auto.misc
-
-Testing Summary
+## Testing Summary
 1) NFS Server Setup	
 2) NFS Client Setup	
 3) Public Share Access	
@@ -96,5 +92,7 @@ This project helped me practice:
 7) Multi-machine Linux administration
 
 Author
+
 Vedh Kamble
+
 Linux Server Administration Practice Project
