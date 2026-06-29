@@ -92,7 +92,8 @@ This project helped me practice:
 7) Multi-machine Linux administration
 
 
-Author
+### Author
 
 Vedh Kamble
+
 Linux Server Administration Practice Project
