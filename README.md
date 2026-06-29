@@ -30,11 +30,11 @@ The setup includes multiple shared directories with different access controls, a
 ```
 
 ## Technologies Used
-Linux
-NFS Server
-AutoFS
-firewalld
-Linux Groups & Permissions
+1) Linux
+2) NFS Server
+3) AutoFS
+4) firewalld
+5) Linux Groups & Permissions
 
 ## Implemented Features
 1) Public Share
