@@ -91,8 +91,8 @@ This project helped me practice:
 6) Network filesystem troubleshooting
 7) Multi-machine Linux administration
 
+
 Author
 
 Vedh Kamble
-
 Linux Server Administration Practice Project
